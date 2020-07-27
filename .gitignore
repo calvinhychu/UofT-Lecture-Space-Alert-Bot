@@ -1,3 +1,4 @@
 .geckodriver
 geckodriver.log
 geckodriver.txt
+.__pycache__
