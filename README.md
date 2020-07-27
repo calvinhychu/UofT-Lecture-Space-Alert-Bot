@@ -39,7 +39,7 @@
 </body>
 </section>
 <section>
-<h4>How it works?</h4>
+<title>How it works?</title>
 <ul>
 	<li>Utilizing selenium module in Python to initialize bot and scrap data from ACORN</li> 
 	<li>Used Tkiner module for simple GUI</li>
@@ -47,9 +47,9 @@
 </ul>
 </section>
 <section>
-<h4>Contributing</h4>
+<title>Contributing</title>
 </section>
 <section>
-<h5>Disclaimer</h5>
+<title>Disclaimer</title>
 </section>
 </html>
