@@ -1,6 +1,11 @@
 from main import *
 from tkinter import *
+import webbrowser
 
+def open_github_site():
+    webbrowser.open_new('https://github.com/calvinhychu/UofT-Lecture-Space-'
+                        'Alert-Bot#university-of-toronto-course-enrollment-'
+                        'alert')
 
 class BotGUI:
     def __init__(self, win):
@@ -20,7 +25,9 @@ class BotGUI:
                          text='Welcome! This is an automated bot for checking '
                               'availability of\n lecture sections for '
                               'courses at UofT. Please '
-                              'click here for instruction.')
+                              'click here for instruction.',
+                         cursor="hand2")
+        self.l13.bind("<Button-1>", lambda e: open_github_site())
         self.utorid = Entry()
         self.ut_password = Entry(show="*")
         self.course = Entry()
@@ -58,6 +65,8 @@ class BotGUI:
         self.contact.place(x=80, y=260)
         self.b1 = Button(win, text='Start Bot', command=self.start_bot)
         self.b1.place(x=200, y=300)
+
+
 
     def start_bot(self):
         while True:
