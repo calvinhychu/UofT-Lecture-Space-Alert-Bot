@@ -11,6 +11,7 @@
   <!-- Add picture -->
 </ul>
 </body>
+<section>
 <h2>Prerequisites</h2>
 <body>
 	<ul>
@@ -19,6 +20,8 @@
 		<li>Enable SMTP mail with the Gmail account by following this <a href="https://www.youtube.com/watch?v=D-NYmDWiFjU">link</a></li>
 	</ul>
 </body>
+</section>
+<section>
 <h3>Usage</h3>
 <body>
 <ol>
@@ -34,11 +37,19 @@
   <li>Enter the email address you want the alert email to be send in the entry field next to Send To:</li>
 </ol>
 </body>
+</section>
+<section>
 <h4>How it works?</h4>
 <ul>
 	<li>Utilizing selenium module in Python to initialize bot and scrap data from ACORN</li> 
 	<li>Used Tkiner module for simple GUI</li>
 	<li>SMTP module to send alert email</li>
+</ul>
+</section>
+<section>
 <h4>Contributing</h4>
+</section>
+<section>
 <h5>Disclaimer</h5>
+</section>
 </html>
