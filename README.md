@@ -8,7 +8,7 @@
   <li>Email alert is sent to a chosen email address if an open space for a lecture section is found to alert user to enroll</li>
   <li>Works for both UTSG and UTM</li>
   <li>Intuitive GUI available</li>
-  <!-- Add picture -->
+  <!-- Add picture and gif -->
 </ul>
 </body>
 <section>
@@ -20,9 +20,7 @@
 		<li>Enable SMTP mail with the Gmail account by following this <a href="https://www.youtube.com/watch?v=D-NYmDWiFjU">link</a></li>
 	</ul>
 </body>
-</section>
-<section>
-<h3>Usage</h3>
+<h2>Usage</h2>
 <body>
 <ol>
   <li>Close Firefox browser</li>
@@ -37,16 +35,12 @@
   <li>Enter the email address you want the alert email to be send in the entry field next to Send To:</li>
 </ol>
 </body>
-</section>
-<section>
-<h4>How it works?</h4>
+<h2>How it works?</h2>
 <ul>
 	<li>Utilizing selenium module in Python to initialize bot and scrap data from ACORN</li> 
 	<li>Used Tkiner module for simple GUI</li>
 	<li>SMTP module to send alert email</li>
 </ul>
-</section>
-<section>
 <h2>Contributing</h2>
 <h2>Disclaimer</h2>
 </html>
