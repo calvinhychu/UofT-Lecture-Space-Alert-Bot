@@ -43,5 +43,10 @@
 	<li>SMTP module to send alert email</li>
 </ul>
 <h2>Contributing</h2>
+Check for issues in the issue tab
+<h3>Clone</h3>
+```
+git clone https://github.com/calvinhychu/UofT-Lecture-Space-Alert-Bot.git
+```
 <h2>Disclaimer</h2>
 </html>
