@@ -1,11 +1,14 @@
 from main import *
 from tkinter import *
 import webbrowser
+import threading
+
 
 def open_github_site():
     webbrowser.open_new('https://github.com/calvinhychu/UofT-Lecture-Space-'
                         'Alert-Bot#university-of-toronto-course-enrollment-'
                         'alert')
+
 
 class BotGUI:
     def __init__(self, win):
@@ -63,21 +66,25 @@ class BotGUI:
         self.l13.place(x=30, y=8)
         self.email_password.place(x=80, y=230)
         self.contact.place(x=80, y=260)
-        self.b1 = Button(win, text='Start Bot', command=self.start_bot)
+        self.b1 = Button(win, text='Start Bot', command = lambda:threading.Thread(target = self.start_bot()).start())
         self.b1.place(x=200, y=300)
-
-
+        self.status_text = StringVar()
+        self.status_text.set('Current Status: IDLE')
+        self.l14 = Label(win, textvariable=self.status_text)
+        self.l14.place(x=20, y=320)
 
     def start_bot(self):
-        while True:
-            section = Acorn(self.utorid.get(), self.ut_password.get(),
+        self.status_text.set('Current Status: Running...')
+        section = Acorn(self.utorid.get(), self.ut_password.get(),
                             self.email.get(),
                             self.email_password.get(), self.contact.get())
-            section.login()
+        section.login()
+        while True:
             if section.find_course(self.course.get(), self.session_code,
                                    self.lecture_code.get().split()):
                 print("FINISHED!")
                 break
+        self.status_text.set('Current Status: DONE! Email sent!')
 
 
 bot = Tk()
