@@ -76,7 +76,7 @@ class Acorn:
             return True
         login_session.find_element_by_class_name("close.icon-cancel").click()
         time.sleep(4)
-        self.find_course(co, term, lecture)
+
 
     def send_email(self, co, term, lecture, number_of_space):
         server = smtplib.SMTP('smtp.gmail.com', 587)
