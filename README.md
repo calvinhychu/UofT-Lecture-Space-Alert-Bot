@@ -33,6 +33,7 @@
   <li>Enter your Gmail account address in the entry field next to Email: ,this is the email account that will send out the alert email</li>
   <li>Enter email account password in the entry field next to Email pwd: </li>
   <li>Enter the email address you want the alert email to be send in the entry field next to Send To:</li>
+  <b>NOTE:</b> This program will continuously run until it finds an open slot for given lecture sections or user closes the program.
 </ol>
 </body>
 <h2>How it works?</h2>
