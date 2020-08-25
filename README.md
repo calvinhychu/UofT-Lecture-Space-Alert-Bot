@@ -7,7 +7,7 @@ An automated bot to check if any open space is available for courses in Universi
 - Able to check for multiple lecture sections for course
 - Email alert is sent to a chosen email address if an open space for a lecture section is found to alert user to enroll
 - Works for both UTSG and UTM
-- Intuitive GUI available
+- Intuitive GUI available as an executable file generated via Pyinstaller 
 
 ## Demo 
 <b>NOTE:</b> UofT-Lecture-Space-Alert-Bot will run in headless mode so user won't see a popup Firefox browser but instead the program will run in background. The demo below where there is a Firefox browser popup after submiting infomation in GUI is only to demonstrate how this program works.
@@ -38,15 +38,16 @@ This is a program designed for students, by students. Hence, all source code is 
 1. Clone this project or just download UofT-Lecture-Space-Alert-Bot.exe
 2. Place geckodriver.exe you downloaded at the same directory as UofT-Lecture-Space-Alert-Bot.exe
 3. Close Firefox browser
-4. Enter your UTORid in the entry field next to UTORid:
-5. Enter your UToronto account password in the entry field next to Password:
-6. Enter course code you intend to search for in the entry field next to Course:. e.g. CSC148H1 or MAT137Y1
-7. Choose your section code by clicking one of the radio button F, S or Y
-8. Enter lecture section code you intend to search for in the entry field next to Lecture: e.g. LEC0101.
-9. If intended to search for more than 1 lecture section separate each lecture code by 1 space e.g. LEC0101 LEC5101
-10. Enter your Gmail account address in the entry field next to Email: ,this is the email account that will send out the alert email
-11. Enter email account password in the entry field next to Email pwd: 
-12. Enter the email address you want the alert email to be send in the entry field next to Send To:
+4. Open UofT-Lecture-Space-Alert-Bot.exe or run gui.py
+5. Enter your UTORid in the entry field next to UTORid:
+6. Enter your UToronto account password in the entry field next to Password:
+7. Enter course code you intend to search for in the entry field next to Course:. e.g. CSC148H1 or MAT137Y1
+8. Choose your section code by clicking one of the radio button F, S or Y
+9. Enter lecture section code you intend to search for in the entry field next to Lecture: e.g. LEC0101.
+10. If intended to search for more than 1 lecture section separate each lecture code by 1 space e.g. LEC0101 LEC5101
+11. Enter your Gmail account address in the entry field next to Email: ,this is the email account that will send out the alert email
+12. Enter email account password in the entry field next to Email pwd: 
+13. Enter the email address you want the alert email to be send in the entry field next to Send To:
 - <b>NOTE:</b> This program will continuously run until it finds an open space for given lecture sections or user closes the program.)
 
 ## How it works?
