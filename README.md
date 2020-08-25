@@ -20,7 +20,7 @@ An automated bot to check if any open space is available for courses in Universi
 
 ## Getting Started
 
-## Prerequisites
+### Prerequisites
 - Firefox installed. Click [here](https://www.mozilla.org/en-US/firefox/new/) for official Firefox download link.
 - Have a Gmail account ready, this will be the account that sends the email alert. Click [here](https://accounts.google.com/signup?hl=en) to sign-up for a Gmail account.
 - Enable SMTP mail with the Gmail account by following this [link](https://www.youtube.com/watch?v=D-NYmDWiFjU).
@@ -59,4 +59,4 @@ No privacy information like ACORN username and password or email password is col
 
 ## Disclaimer
 UofT-Lecture-Space-Alert-Bot is not affiliated with University of Toronto or its ACORN system, it is only intended to be used for non-profit purposes.
-None of the authors, contributors, administrators, vandals, or anyone else connected with UofT-Lecture-Space-Alert, in any way whatsoever, can be responsible for your use of this program. Any action action you take upon using this program is strictly at your own risk.
+None of the authors, contributors, administrators, vandals, or anyone else connected with UofT-Lecture-Space-Alert-Bot, in any way whatsoever, can be responsible for your use of this program. Any action action you take upon using this program is strictly at your own risk.
