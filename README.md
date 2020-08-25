@@ -18,30 +18,13 @@ An automated bot to check if any open space is available for courses in Universi
 ### Bot starting after submitted info:
 <img src="./misc/demo2.gif">
 
+## Getting Started
+
 ## Prerequisites
 - Firefox installed. Click [here](https://www.mozilla.org/en-US/firefox/new/) for official Firefox download link.
 - Have a Gmail account ready, this will be the account that sends the email alert. Click [here](https://accounts.google.com/signup?hl=en) to sign-up for a Gmail account.
 - Enable SMTP mail with the Gmail account by following this [link](https://www.youtube.com/watch?v=D-NYmDWiFjU).
-
-## Usage
-- Close Firefox browser
-- Enter your UTORid in the entry field next to UTORid:
-- Enter your UToronto account password in the entry field next to Password:
-- Enter course code you intend to search for in the entry field next to Course:. e.g. CSC148H1 or MAT137Y1
-- Choose your section code by clicking one of the radio button F, S or Y
-- Enter lecture section code you intend to search for in the entry field next to Lecture: e.g. LEC0101.
-- If intended to search for more than 1 lecture section separate each lecture code by 1 space e.g. LEC0101 LEC5101
-- Enter your Gmail account address in the entry field next to Email: ,this is the email account that will send out the alert email
-- Enter email account password in the entry field next to Email pwd: 
-- Enter the email address you want the alert email to be send in the entry field next to Send To:
-- <b>NOTE:</b> This program will continuously run until it finds an open space for given lecture sections or user closes the program.)
-
-## How it works?
-- Utilizing selenium module in Python to initialize bot and scrap data from ACORN
-- Used Tkiner module for simple GUI
-- Used SMTP module to send alert email
-
-## Getting Started
+- Download appropriate version of mozilla/geckodriver based on your OS [here](https://github.com/mozilla/geckodriver/releases)
 
 ### Clone this project
 
@@ -50,6 +33,26 @@ An automated bot to check if any open space is available for courses in Universi
 ```
 ### Contributing
 This is a program designed for students, by students. Hence, all source code is available and any contribution is welcome. Please check or raise issues in the issue tab.
+
+## Usage
+1. Clone this project or just download UofT-Lecture-Space-Alert-Bot.exe
+2. Place geckodriver.exe you downloaded at the same directory as UofT-Lecture-Space-Alert-Bot.exe
+3. Close Firefox browser
+4. Enter your UTORid in the entry field next to UTORid:
+5. Enter your UToronto account password in the entry field next to Password:
+6. Enter course code you intend to search for in the entry field next to Course:. e.g. CSC148H1 or MAT137Y1
+7. Choose your section code by clicking one of the radio button F, S or Y
+8. Enter lecture section code you intend to search for in the entry field next to Lecture: e.g. LEC0101.
+9. If intended to search for more than 1 lecture section separate each lecture code by 1 space e.g. LEC0101 LEC5101
+10. Enter your Gmail account address in the entry field next to Email: ,this is the email account that will send out the alert email
+11. Enter email account password in the entry field next to Email pwd: 
+12. Enter the email address you want the alert email to be send in the entry field next to Send To:
+- <b>NOTE:</b> This program will continuously run until it finds an open space for given lecture sections or user closes the program.)
+
+## How it works?
+- Utilizing selenium module in Python to initialize bot and scrap data from ACORN
+- Used Tkiner module for simple GUI
+- Used SMTP module to send alert email
 
 ## Privacy
 No privacy information like ACORN username and password or email password is collected or retained by UofT-Lecture-Space-Alert-Bot
