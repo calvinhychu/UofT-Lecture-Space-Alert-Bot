@@ -27,7 +27,7 @@ An automated bot to check if any open space is available for courses in Universi
 - Enter your Gmail account address in the entry field next to Email: ,this is the email account that will send out the alert email
 - Enter email account password in the entry field next to Email pwd: 
 - Enter the email address you want the alert email to be send in the entry field next to Send To:
-<b>NOTE:</b> This program will continuously run until it finds an open space for given lecture sections or user closes the program.
+<b>NOTE:</b> This program will continuously run until it finds an open space for given lecture sections or user closes the program.)<br>
 
 ## How it works?
 - Utilizing selenium module in Python to initialize bot and scrap data from ACORN
@@ -39,7 +39,6 @@ An automated bot to check if any open space is available for courses in Universi
 ### Clone this project
 
 ```bash
-  cd ~/projects
   git clone https://github.com/calvinhychu/UofT-Lecture-Space-Alert-Bot/
 ```
 ### Contributing
