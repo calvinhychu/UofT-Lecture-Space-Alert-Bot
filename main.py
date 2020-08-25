@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common import keys
 from selenium.webdriver.firefox.options import Options
+from typing import Optional, List
 import smtplib
 import time
 
