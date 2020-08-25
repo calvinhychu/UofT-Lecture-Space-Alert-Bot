@@ -10,6 +10,11 @@ An automated bot to check if any open space is available for courses in Universi
 - Intuitive GUI available
 
 ## Demo 
+Entering info to GUI:
+<img src="./misc/demo1.gif"/>
+
+Bot starting after submitted info:
+<img src="./misc/demo2.gif">
 
 ## Prerequisites
 - Firefox installed. Click [here](https://www.mozilla.org/en-US/firefox/new/) for official Firefox download link.
