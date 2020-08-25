@@ -1,4 +1,4 @@
-# University of Toronto course enrollment alert
+# UofT-Lecture-Space-Alert-Bot
 
 An automated bot to check if any open space is available for courses in University of Toronto using the ACORN system. Designed for checking course availability after waitlist is dropped.
 
@@ -10,10 +10,12 @@ An automated bot to check if any open space is available for courses in Universi
 - Intuitive GUI available
 
 ## Demo 
-Entering info to GUI:
+<b>NOTE:</b> UofT-Lecture-Space-Alert-Bot will run in headless mode so user won't see a popup Firefox browser but instead the program will run in background. The demo below where there is a Firefox browser popup after submiting infomation in GUI is only to demonstrate how this program works.
+
+### Entering info to GUI:
 <img src="./misc/demo1.gif"/>
 
-Bot starting after submitted info:
+### Bot starting after submitted info:
 <img src="./misc/demo2.gif">
 
 ## Prerequisites
