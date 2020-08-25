@@ -13,7 +13,7 @@ An automated bot to check if any open space is available for courses in Universi
 <b>NOTE:</b> UofT-Lecture-Space-Alert-Bot will run in headless mode so user won't see a popup Firefox browser but instead the program will run in background. The demo below where there is a Firefox browser popup after submiting infomation in GUI is only to demonstrate how this program works.
 
 ### Entering info to GUI:
-<img src="./misc/demo1.gif" width = 200 height = 200/>
+<img src="./misc/demo1.gif" width = 350 height = 300/>
 
 ### Bot starting after submitted info:
 <img src="./misc/demo2.gif">
