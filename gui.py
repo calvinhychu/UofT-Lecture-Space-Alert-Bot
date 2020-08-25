@@ -28,7 +28,8 @@ class BotGUI:
     _lecture_code:
         A list of lecture section for _course. e.g. LEC0101
     _session_code:
-        Sectional code to represent Fall, Winter or Summer section for _course
+        Sectional code to represent First, Second or Year-long section
+        for _course
     _email:
         The email address that will send an alert if a space is available
         in the chosen course, currently only supports a valid Gmail address
