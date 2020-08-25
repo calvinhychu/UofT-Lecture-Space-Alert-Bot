@@ -3,3 +3,4 @@ geckodriver.log
 geckodriver.txt
 .__pycache__
 main.cpython-38.pyc
+/__pycache__/
