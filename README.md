@@ -52,7 +52,7 @@ This is a program designed for students, by students. Hence, all source code is 
 
 ## How it works?
 - Utilizing selenium module in Python to initialize bot and scrap data from ACORN
-- Used Tkiner module for simple GUI
+- Used Tkinter module for simple GUI
 - Used SMTP module to send alert email
 
 ## Privacy
